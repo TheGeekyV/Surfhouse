@@ -2,7 +2,7 @@
   <div id="nav">
     <p>menu</p>
     <router-link to="/">Home</router-link>|
-    <router-link to="/about">About</router-link>
+    <router-link to="/product">Product</router-link>
     <a href="#"></a>
     <a href="#"></a>
     <a href="#"></a>
