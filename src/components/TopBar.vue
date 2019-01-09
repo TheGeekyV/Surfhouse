@@ -20,7 +20,9 @@
         </div>
         <div class="cart-search">
           <input class="cart-search__searchField" type="text" placeholder="SEARCH">
-          <button class="cart-search__searchButton" type="submit">S</button>
+          <button class="cart-search__searchButton" type="submit">
+            <img class="magnifier" src="@/assets/search.svg" alt="Search">
+          </button>
         </div>
       </div>
     </div>
@@ -119,11 +121,13 @@ export default {}
       }
 
       .cart-search {
+        display: flex;
         height: 30px;
 
         .cart-search__searchField {
           background-color: #e9e9e9;
           border: none;
+          height: 30px;
           line-height: 30px;
           padding-left: 10px;
           width: 85%;
@@ -132,9 +136,13 @@ export default {}
         .cart-search__searchButton {
           background-color: #333333;
           border: none;
+          height: 30px;
           color: white;
-          line-height: 30px;
-          width: 11.3%;
+          width: 30px;
+
+          .magnifier {
+            height: 15px;
+          }
         }
       }
     }
