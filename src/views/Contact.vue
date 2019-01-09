@@ -1,10 +1,12 @@
 <template>
-  <div></div>
+  <div id="contact"></div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'contact'
+}
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 </style>

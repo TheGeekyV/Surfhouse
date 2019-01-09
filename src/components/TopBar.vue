@@ -1,7 +1,9 @@
 <template>
   <div id="TopBar">
     <div class="container">
-      <img class="shop-logo" src="../assets/logoWText.png" alt="Logo">
+      <router-link to="/">
+        <img class="shop-logo" src="../assets/logoWText.png" alt="Logo">
+      </router-link>
       <div class="cart">
         <div class="cart-top">
           <a href="#" class="log-in">LOG IN</a>
